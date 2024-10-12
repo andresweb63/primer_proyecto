@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+nav,
+footer {
+    margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    min-height: 8rem;
+    background-color: blue;
+}
+
+nav {
+    width: 80%;
+    min-height: 4rem;
+    background-color: orange;
+}
+
+main {
+    width: 80%;
+    min-height: 20rem;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 80%;
+    min-height: 7rem;
+    background-color: black;
+}
+
+.ponerBorde {
+    border: 0.7rem solid black;
+}
+
+.izda {
+    width: 50%;
+    min-height: 6rem;
+    background-color: #80c5c5;
+}
+
+.dcha {
+    width: 30%;
+    min-height: 6rem;
+    background-color: rgb(233, 120, 79);
+}
